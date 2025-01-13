@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Check for API keys in code
+if git diff --cached | grep -i "api_key.*=.*[A-Za-z0-9]" ; then
+    echo "Warning: Possible API key found in code"
+    exit 1
+fi
+
+# Check for .env files
+if git diff --cached | grep -i "^+.*DISCORD_TOKEN.*=" ; then
+    echo "Warning: Possible token found in code"
+    exit 1
+fi 
