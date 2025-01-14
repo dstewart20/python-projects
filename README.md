@@ -2,7 +2,7 @@
 
 ## Overview
 
-A collection of Python projects demonstrating proficiency in data analysis, web development, automation, and API integration. This portfolio contains 4 distinct projects showcasing various technical skills and practical applications.
+A collection of Python projects demonstrating proficiency in data analysis, web development, automation, and API integration. This portfolio contains 3 distinct projects showcasing various technical skills and practical applications.
 
 ## Projects
 
